@@ -19,7 +19,6 @@ if(navigator.geolocation){
    
    
    
-   
           map.on('click', async function (e) {
               console.log("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
    
