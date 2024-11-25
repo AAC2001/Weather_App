@@ -18,7 +18,6 @@ if(navigator.geolocation){
           marker.bindPopup(data.name).openPopup();
    
    
-   
           map.on('click', async function (e) {
               console.log("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
    
