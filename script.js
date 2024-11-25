@@ -6,7 +6,6 @@ if(navigator.geolocation){
     const data =await getWeatherData(lat,long)
     console.log("data",data)   
 
-
     var map = L.map('map').setView([lat,long], 5);
   
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
